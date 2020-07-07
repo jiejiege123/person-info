@@ -1,10 +1,14 @@
-# personinfo
+# vue-cli3-base
 
 ## Project setup
 ```
 npm install
 ```
-
+如果 node-sass 安装失败:
+```
+npm config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+npm config set registry https://registry.npm.taobao.org
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
