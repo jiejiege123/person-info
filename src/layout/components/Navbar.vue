@@ -49,7 +49,7 @@ export default {
   box-shadow: 0 1px 4px rgba(0, 12, 24, 0.24);
   padding: 0 35px;
   position: relative;
-  z-index: 9999;
+  z-index: 10;
 }
 .logo-title{
   font-size: 22px;

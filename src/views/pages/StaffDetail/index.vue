@@ -99,14 +99,14 @@
                 </div>
               </div>
               <div class="achieve-assexam-examine">
-                <bar-kaohe-echarts :x-data="[2020,2018,2017,2017]" id-no="kaohe"></bar-kaohe-echarts>
+                <bar-kaohe-echarts :x-data="[2020,2018,2017,2016]" id-no="kaohe"></bar-kaohe-echarts>
               </div>
             </div>
           </div>
         </tab-pane>
         <tab-pane label="业绩评价" class="evaluate">
           <div class="evaluate-content">
-            <i-table size="small" border :columns="columns" :data="tableData"></i-table>
+            <Table size="small" border :columns="columns" :data="tableData"></Table>
           </div>
           <div v-if="!showAll" class="show-all" @click="showAllRow">
             展示全部

@@ -124,6 +124,6 @@ module.exports = {
         config.optimization.runtimeChunk('single')
       }
     )
-  }
-  // transpileDependencies: ['@antv']
+  },
+  transpileDependencies: ['echarts', 'view-design']
 }

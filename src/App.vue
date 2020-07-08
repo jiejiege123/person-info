@@ -13,6 +13,10 @@ export default {
   created () {
     localStorage.setItem('userName', '周长江')
     localStorage.setItem('userImg', './assets/img/userimg.jpg')
+
+    const arr = [1, 2, 3, 4, 5]
+    const a = arr.findIndex(n => n === 1)
+    console.log(a)
   }
 }
 </script>
