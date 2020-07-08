@@ -14,7 +14,7 @@ import './registerServiceWorker'
 import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import '@/permission' // permission control
 
-import '@/assets/css/common.css' // A modern alternative to CSS resets
+import '@/assets/css/common.css'
 
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'

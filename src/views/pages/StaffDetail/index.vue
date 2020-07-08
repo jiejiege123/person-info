@@ -366,15 +366,18 @@ export default {
   padding: 15px 25px;
 }
 .list-item-info-photo {
-  width: 90px;
+  width: 90px !important;
+  height: auto;
   margin-right: 20px;
 }
 .w50 {
   width: 50%;
+  display: inline-block
 }
 .lh16 {
   /* line-height: 34px; */
   padding-bottom: 12px;
+  display: inline-block
 }
 .list-item-info-des {
   font-size: 13px;
@@ -383,6 +386,7 @@ export default {
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 9px;
+  display: inline-block
 }
 
 /* 考核经历 */
