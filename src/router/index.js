@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-07-08 08:26:17
+ * @LastEditTime: 2020-07-08 11:40:58
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \bpsp-uie:\doit\vue admin\vue-cli3-base\src\router\index.js
+ */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
@@ -21,7 +29,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
