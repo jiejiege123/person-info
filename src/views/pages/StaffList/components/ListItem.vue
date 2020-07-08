@@ -68,7 +68,8 @@ export default {
 
 }
 .list-item-info-photo{
-  width: 90px;
+  width: 90px !important;
+  height: auto;
   margin-right: 20px;
 }
 .list-item-info-des{
@@ -78,8 +79,10 @@ export default {
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 9px;
+  display: inline-block
 }
 .lh16{
   line-height: 24px;
+  display: inline-block
 }
 </style>
