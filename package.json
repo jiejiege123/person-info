@@ -41,7 +41,7 @@
     "html-webpack-plugin": "3.2.0",
     "mockjs": "^1.1.0",
     "node-sass": "^4.12.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.2",
     "script-ext-html-webpack-plugin": "2.1.3",
